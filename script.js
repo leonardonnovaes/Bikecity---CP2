@@ -23,3 +23,15 @@ function coresFundos(){
     setTimeout('coresFundos()', time);
 }
 coresFundos()
+
+function Login(){
+    let user = document.getElementById("idUser").value;
+    let senha = document.getElementById("idSenha").value;
+
+    if(user === "Admin" && senha === "admin123"){
+        window.open("quiz.html")
+    }
+    else{
+        alert("Senha ou Usuário incorretos")
+    }
+}
