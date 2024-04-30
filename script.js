@@ -35,3 +35,15 @@ function Login(){
         alert("Senha ou Usuário incorretos")
     }
 }
+function Alerta(){
+    let nome = document.getElementById("idNome").value;
+    let email = document.getElementById("idEmail").value;
+    let tel = document.getElementById("idTel").value;
+
+    if(nome === "" || email === "" || tel === ""){
+        alert("Preencha os campos!")
+    }
+    else{
+        alert("Dados Enviados!")
+    }
+}
