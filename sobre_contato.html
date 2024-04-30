@@ -6,6 +6,25 @@
     <title>Contato</title>
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Entre em contato conosco!
+        </h1>
+        <a href="index.html">Homepage</a>
+        <a href="login.html">Login</a>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="idNome">Nome: </label><br>
+            <input type="text" name="nome" id="idNome" required placeholder="Insira seu nome"><br><br>
+            <label for="idEmail">Email: </label><br>
+            <input type="email" name="email" id="idEmail" required placeholder="Insira seu email"><br><br>
+            <label for="idTel">Telefone: </label><br>
+            <input type="tel" name="telefone" id="idTel" required placeholder="(xx) xxxx-xxxx"><br><br>
+            <input type="submit" onclick="Alerta()">
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>
