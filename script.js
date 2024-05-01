@@ -1,4 +1,4 @@
-let imagens = ["./img/bike1.jpg", "./img/bike2.jpg", "./img/bike3.jpg", "./img/bike4.jpg"];
+let imagens = ["./IMG/bike1.jpg", "./IMG/bike2.jpg", "./IMG/bike3.jpg", "./IMG/bike4.jpg"];
 let index = 0;
 let time = 3000;
 
