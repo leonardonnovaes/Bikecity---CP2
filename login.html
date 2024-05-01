@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
     <header>
-        <h1>
-            Login
-        </h1>
+        <h1>Login - Quiz</h1>
         <a href="index.html">Homepage</a>
         <a href="sobre_contato.html">Sobre nós</a>
     </header>
 
-<form action="quiz.html">
-    <fieldset>
-        <label for="idUser">Usuário: </label><br>
-        <input type="text" name="user" id="idUser" required placeholder="Insira o usuário"><br><br>
-        <label for="idSenha">Senha:</label><br>
-        <input type="password" name="senha" id="idSenha" required placeholder="Insira sua senha"> <br><br>
-        <button type="button" onclick="Login()">Enviar</button>
-    </fieldset>
-</form>
+<div class="form-container">
+    <form action="quiz.html">
+        <fieldset>
+            <label for="idUser">Usuário: </label><br>
+            <input type="text" name="user" id="idUser" required placeholder="Insira o usuário"><br><br>
+            <label for="idSenha">Senha:</label><br>
+            <input type="password" name="senha" id="idSenha" required placeholder="Insira sua senha"> <br><br>
+            <button type="button" onclick="Login()">Enviar</button>
+        </fieldset>
+    </form>
+</div>
+
     
     <script src="script.js"></script>
 </body>
